@@ -5,10 +5,10 @@ import { FaLocationDot } from "react-icons/fa6";
 const Home = () => {
   return (
     <div id="home" className="bg-[#FFFFFF]">
-      <div className="max-w-[85%] mx-auto font-inter flex flex-col-reverse md:flex-row items-center justify-between gap-8 min-h-screen pt-4 md:pt-0">
+      <div className="max-w-[85%] mx-auto font-inter flex flex-col-reverse md:flex-row items-center justify-between gap-4 min-h-screen pt-4 md:pt-0">
         
         {/* Left Section */}
-        <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-start space-y-5 text-center md:text-left mt-3 md:mt-0">
+        <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-start space-y-5 text-center md:text-left mt-0 md:mt-0">
           <h1 className="text-3xl md:text-5xl font-bold mt-2 md:mt-0">
             I’m <span className="text-[#fe5617]">Karuppaiya M</span>
           </h1>
@@ -58,7 +58,7 @@ const Home = () => {
         </div>
 
         {/* Right Section */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-3 md:mt-0">
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-0 md:mt-0">
           <img
             className="w-[85%] rounded-[50px]"
             src="/profile.jpg"
