@@ -8,7 +8,7 @@ const Home = () => {
       <div className="max-w-[85%] mx-auto font-inter flex flex-col-reverse md:flex-row items-center justify-between gap-4 min-h-screen pt-4 md:pt-0">
         
         {/* Left Section */}
-        <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-start space-y-5 text-center md:text-left mt-0 md:mt-0">
+        <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-start space-y-5 text-center md:text-left  md:mt-0">
           <h1 className="text-3xl md:text-5xl font-bold mt-2 md:mt-0">
             I’m <span className="text-[#fe5617]">Karuppaiya M</span>
           </h1>
