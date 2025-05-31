@@ -4,12 +4,12 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Home = () => {
   return (
-    <div id="home" className="bg-[#FFFFFF]">
-      <div className="max-w-[85%] mx-auto font-inter flex flex-col-reverse md:flex-row items-center justify-between gap-4 min-h-screen pt-4 md:pt-0">
-        
+    <div id="home" className="bg-white">
+      <div className="max-w-[85%] mx-auto font-inter flex flex-col-reverse md:flex-row items-center justify-between gap-8 min-h-screen py-6 md:py-0">
+
         {/* Left Section */}
-        <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-start space-y-5 text-center md:text-left  md:mt-0">
-          <h1 className="text-3xl md:text-5xl font-bold mt-2 md:mt-0">
+        <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center space-y-5 text-center md:text-left">
+          <h1 className="text-3xl md:text-5xl font-bold">
             I’m <span className="text-[#fe5617]">Karuppaiya M</span>
           </h1>
 
@@ -32,7 +32,7 @@ const Home = () => {
           </h2>
 
           <p className="text-lg md:text-xl text-gray-700 font-medium">
-            Passionate software developer skilled in full-stack, web, mobile, and backend development. Focused on building scalable apps and solving real-world problems through code
+            Passionate software developer skilled in full-stack, web, mobile, and backend development. Focused on building scalable apps and solving real-world problems through code.
           </p>
 
           {/* Contact Info */}
@@ -52,20 +52,19 @@ const Home = () => {
           </div>
 
           {/* Resume Button */}
-          <div className="bg-[#fe5617] px-5 py-2 rounded-2xl font-bold text-white hover:bg-[#e24d10] transition">
+          <div className="bg-[#fe5617] px-6 py-2 rounded-2xl font-bold text-white hover:bg-[#e24d10] transition">
             <a href="/Karuppaiya-Resume.pdf" download>Download CV</a>
           </div>
         </div>
 
-        {/* Right Section */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-0 md:mt-0">
+        {/* Right Section (Image) */}
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end">
           <img
-            className="w-[85%] rounded-[50px]"
+            className="w-full max-w-[320px] sm:max-w-[380px] md:max-w-[450px] rounded-[50px] object-cover"
             src="/profile.jpg"
             alt="Profile"
           />
         </div>
-
       </div>
     </div>
   );
