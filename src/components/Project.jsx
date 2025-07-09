@@ -14,7 +14,10 @@ const Project = () => {
               Railway Reservation System
             </h1>
             <p className="text-lg text-gray-700 mb-4">
-              A full-stack application developed using HTML, CSS, Java, ORM (Hibernate), and MySQL. It allows passengers to log in, book/cancel tickets, check train details and seat availability. Admins can manage train schedules and routes.
+              Built a secure, full-stack railway booking system with Spring Boot and PostgreSQL.
+Enabled users to view trains, book tickets, and view booking history with login access.
+Created an admin panel to manage train records (add/update/delete).
+Used Thymeleaf and Bootstrap to build a responsive UI with role-based access control.
             </p>
             <a
           href="https://github.com/karuppaiya27/railway-reservation-system" // Replace with your GitHub repo link
@@ -31,10 +34,13 @@ const Project = () => {
               Travel and Tourism Management System
             </h1>
             <p className="text-lg text-gray-700 mb-4">
-              A Java-based desktop application for managing tourist activities. Users can book hotels, select tour packages, and explore site info. Developed with Java Swing, JDBC, and MySQL for streamlined booking experiences.
+             Developed a full-stack tourism booking web app using Spring Boot and Bootstrap.
+Implemented user login, JWT-based authentication, tour package browsing, and booking history.
+Created an admin dashboard to manage users, packages, and bookings efficiently.
+Ensured secure API communication with a responsive and modern frontend design.
             </p>
             <a
-              href="https://github.com/karuppaiya27/TravelAndTourismSystem"
+              href="https://github.com/karuppaiya27/travel-tourism-system"
               className="text-center text-blue-600 font-bold text-lg hover:underline"
               target="_blank"
             >
@@ -50,13 +56,17 @@ const Project = () => {
               Online Canteen System
             </h1>
             <p className="text-lg text-gray-700 mb-4">
-              A campus-based online food ordering system integrating online payments and COD. Features include automated order processing, a user rating system, and a responsive UI. Built with Java, JSP, and MySQL.
+              Designed a canteen food ordering system with Spring Boot and PostgreSQL.
+Implemented user login/register, role-based access, cart, and checkout (COD/online).
+Developed an admin panel to manage food items and customer orders.
+Used Thymeleaf and Bootstrap to create a mobile-friendly, fast UI experience.
             </p>
-            <a
-              href="/OnlineCanteenSystem.pptx"
+             <a
+              href="https://github.com/karuppaiya27/online-canteen-system"
               className="text-center text-blue-600 font-bold text-lg hover:underline"
+              target="_blank"
             >
-              Download PPT
+              View Source Code on GitHub
             </a>
           </div>
         </div>

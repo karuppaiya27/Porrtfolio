@@ -53,7 +53,7 @@ const Home = () => {
 
           {/* Resume Button */}
           <div className="bg-[#fe5617] px-6 py-2 rounded-2xl font-bold text-white hover:bg-[#e24d10] transition">
-            <a href="/Karuppaiya-Resume.pdf" download>Download CV</a>
+            <a href="/karuppaiya_resume.pdf" download>Download CV</a>
           </div>
         </div>
 
